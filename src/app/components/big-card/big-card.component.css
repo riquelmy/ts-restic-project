@@ -1,0 +1,44 @@
+.big__card__container {
+  /* border: solid 5px white; */
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.bc_photo {
+  width: 100%;
+  min-width: 400px;
+  transition: transform 0.2s;
+  border: 0.01px solid #12121200;
+  border-radius: 5px;
+
+}
+
+.bc_photo:hover {
+  width: 100%;
+  min-width: 400px;
+  transform: scale(1.05);
+}
+
+.big__card__title > h1 {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.big__card__description {
+  margin-top: 12px;
+}
+.big__card__description > p > a {
+  margin-top: 10px;
+  color: grey;
+
+}
+
+.big__card__description > p {
+  text-align: justify;
+}
